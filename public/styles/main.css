@@ -1,0 +1,252 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: url("/images/bg1.png");
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.nav{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width:60%;
+   height: 50px;
+   border-radius: 5px;
+   background-color:  #ab8f75;
+   opacity: 0.8;
+   text-align: center;
+   
+   }
+
+.container{
+    width:60%;
+    border-radius: 10px;
+    height: 65%;
+    background-color: #F1E0C6;
+    border-style: dashed;
+    border-color:  #ab8f75;
+    margin-top: 5%;
+    margin-left: 20%;
+    opacity: 0.9;
+}
+
+.btn{
+    margin-top: 8%;
+    margin-left: 40%;
+    width: 20%;
+    height: 45px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border: #ab8f75 solid;
+    border-radius: 20px;
+    background-color:#ab8f75 ;
+    color: #3e352c;
+    font-size: 1rem;
+}
+
+
+/* Create page */
+
+.create-body
+{
+    background-image: url("/images/createbg.png");
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.create-container{
+    margin-top: 150px;
+    width: 300px;
+    margin-bottom: 120px;
+}
+
+.create-heading
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+input::placeholder{
+    color:#69543e;
+}
+
+.create-title{
+    border-style: dashed;
+    border-color: #69543e;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: none;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 1000;
+    font-style:oblique;
+    font-size: larger;
+    padding-bottom: 10px;
+    color:#69543e;
+    
+}
+
+.create-para
+{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.create-btn{
+    margin-top:10px;
+    width: 40%;
+    height: 45px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    border: #ab8f75 solid;
+    border-radius: 20px;
+    background-color:#ab8f75 ;
+    color: #3e352c;
+    font-size: 1rem;
+    
+}
+
+.create-notes{
+    line-height: 2.5;
+    border: none;
+    height: 250px;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding-left: 30px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-size:  1.3rem;
+    font-style: normal;
+    color: #e7a363;
+
+}
+
+
+/* width */
+textarea::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  textarea::-webkit-scrollbar-track {
+    background: #FFF6E9; /* You can change this color */
+  }
+  
+  /* Handle */
+  textarea::-webkit-scrollbar-thumb {
+    background: #FFF6E9; /* You can change this color */
+  }
+  
+  /* Handle on hover */
+  textarea::-webkit-scrollbar-thumb:hover {
+    background: #FFF6E9; /* You can change this color */
+  }
+
+  /* Firefox */
+textarea {
+    scrollbar-width: thin;
+  }
+  
+  textarea {
+    scrollbar-color: #e7a363 #f2e5d3;
+  }
+  
+  /* Edge */
+  textarea {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+      
+
+/* view page */
+
+.view-body{
+    background-image: url("/images/viewbg.png");
+}
+
+.view-nav-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.view-nav{
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 25px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   width:60%;
+   height: 50px;
+   border-radius: 5px;
+   background-color:  #ab8f75;
+   opacity: 0.8;
+   text-align: center;
+   color: white;
+}
+
+.default{
+    padding: 10px 30px 30px  ;
+    background-color:#FFF6E9;
+    border-radius: 10px;
+    margin: 10%;
+}
+
+.default-title{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #69543e;
+   
+}
+
+.default-para
+{
+    line-height: 1.5;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-size:  1.3rem;
+    font-style: normal;
+    color: #e7a363;
+}

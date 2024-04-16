@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="view-body">
+    <div class="view-nav-container">
+    <div class="view-nav"><h1>All  Notes</h1></div></div>
+    
+    <% if(locals.title || locals.notes) {%>
+
+        <div class="default">
+            <i class="fa-solid fa-trash-can" style="color: #69543e;float: right;"></i>
+            <div class="default-title"><h1><%= title %></h1></div>
+            <div><h3 class="default-para"><%= notes %> </h3>
+        </div></div>
+     <% }else{ %>
+        <div class="default">
+            <i class="fa-solid fa-trash-can" style="color: #69543e;float: right;"></i>
+            <div class="default-title"><h1>Shopping</h1></div>
+            <div><h3 class="default-para">I need to go to the store today to buy some groceries. I need to get a gallon of milk, a dozen eggs, a loaf of bread, some butter, and some cheese. I also need to get some fruits and vegetables, like apples, bananas, oranges, carrots, and celery. </h3>
+        </div></div>
+
+     <% } %>
+
+    </body>
+</html>
